@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 
-def polindrome word
-	#TODO your code here
+def polindrome(word)
+	word = word.downcase
+	word == word.reverse
 end
